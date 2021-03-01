@@ -39,7 +39,7 @@
 				total = newtotal+tax;
 				
 				//print output title
-				document.getElementById("output").innerHTML="<br><h2> Current Order: </h2><br>";
+				document.getElementById("output").innerHTML="<h2> Current Order: </h2><br>";
 				//print output in columns
 				document.getElementById("output").innerHTML+=
 				"<div class='row'><div class='column'><i>Quantity</i><br>Hotdogs<br>French Fries<br>Drinks<br><br><i>Cost</i><br>Subtotal<br>Discount<br>Tax<br><b>Total</b><br></div><div class='column2'><br>"+hotdogs+"<br>"+fries+"<br>"+drinks+"<br><br><br>$"+subtotal.toFixed(2)+"<br>$"+discount.toFixed(2)+"<br>$"+tax.toFixed(2)+"<br><b>$"+total.toFixed(2)+ "<br></div></div><br><br><br>";
